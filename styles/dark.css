@@ -5,8 +5,24 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --cover-path: url("../images/cover-image-dark.png");
+
+  --bg-color: var(--bg-dark);
+
+  --display-text: var(--violet);
+  --title-shadow: var(--pink);
+
+  --button-color: var(--pink);
+  --button-hover-color: var(--pink-a50);
+
+  --section-title-color: var(--pink);
+
+  --card-title-bg: var(--pink);
+  --card-title-color: var(--bg-dark);
+
+  --article-text-color: var(--pink-light);
+
+  --decor-color: var(--pink);
+
+  --rec-visibility: block;
 }

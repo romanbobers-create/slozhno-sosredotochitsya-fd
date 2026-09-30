@@ -2,3 +2,49 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* фон */
+  --cover-path: url("../images/cover-image-dark.png");
+  --bg-color: var(--bg-dark);
+
+  /* шрифт */
+  --main-font-family: "IBM Plex mono", monospace;
+  --main-line-height: 1.3;
+
+  /* палитра */
+  --pink-a50: #ff007050;
+  --pink: #ff0070;
+  --pink-light: #f1b2ce;
+  --violet: #db00ff;
+  --bg-dark: #000028;
+  --accent-pink-light: #ff8dcb;
+  --accent-pink-pale: #ffc2e6;
+  --charcoal: #353430;
+  --charcoal-a50: #35343050;
+  --bg-light: #fff1f7;
+
+  /* заголовок */
+  --display-text: var(--violet);
+  --title-shadow: var(--pink);
+
+  /* кнопки */
+  --button-color: var(--pink);
+  --button-hover-color: var(--pink-a50);
+
+  /* заголовок секций */
+  --section-title-color: var(--pink);
+
+  /* карточки: заголовок с фоном */
+  --card-title-bg: var(--pink);
+  --card-title-color: var(--bg-dark);
+
+  /* текст статей */
+  --article-text-color: var(--pink-light);
+
+  /* декор */
+  --decor-color: var(--pink);
+
+  /* видимость REC */
+  --rec-visibility: block;
+}
